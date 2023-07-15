@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Home Section Styles */
+#home {
+  background-image: url('https://iso.500px.com/wp-content/uploads/2021/08/Hobby-photographer-waiting-for-beautiful-sunset-By-Jarom%C3%ADr-Chalabala-2.jpg');
+  background-size: cover;
+  
+  background-position: center;
+  color: #000000;
+  text-align: center;
+
+  padding: 100px 0;
+  
+}
+.para{
+  margin-right: 500px;
+  margin-bottom: 200px;
+  font-size: 22px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-right: 500px;
+  font-size: 54px;
+}
+
+
+/* Portfolio Section Styles */
+#portfolio {
+  padding: 50px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+/* About Section Styles */
+#about {
+  background-color: #f4f4f4;
+  padding: 50px;
+}
+
+/* Contact Section Styles */
+#contact {
+  background-color: #eee;
+  padding: 50px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

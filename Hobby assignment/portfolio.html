@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+}
+.container{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+.title{
+    margin-bottom: 2rem;
+}
+
+
+.photo{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px ;
+    object-fit: cover;
+}
+@media(max-width:768px){
+    .photo{
+        flex-direction: column;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="title">Photo Gallery</h2>
+    
+    <div class="gallery">
+        <div class="column">
+            <div class="photo">
+                <img src="images/20230513_114042.jpg" alt="Photo 1" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/20230513_124729.jpg" alt="Photo 2" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/20230513_131341.jpg" alt="Photo 3" width="100%">
+            </div>
+        </div>
+       
+        <div class="column">
+            <div class="photo">
+                <img src="images/20230513_171506.jpg" alt="Photo 4" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/IMG_20220211_142549.jpg" alt="Photo 3" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/IMG_20220405_075537.jpg" alt="Photo 4" width="100%">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="photo">
+                <img src="images/IMG_20220720_191214.jpg" alt="Photo 3" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/IMG_20220904_184951.jpg" alt="Photo 4" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/IMG_20220917_184430.jpg" alt="Photo 3" width="100%">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="photo">
+                <img src="images/IMG_20221023_105815.jpg" alt="Photo 4" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/IMG_20221029_181701.jpg" alt="Photo 3" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/IMG_20221102_171720.jpg" alt="Photo 4" width="100%">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="photo">
+                <img src="images/IMG_20221106_115150.jpg" alt="Photo 3" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/IMG_20221106_122232.jpg" alt="Photo 4" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/IMG_20221121_181304.jpg" alt="Photo 3" width="100%">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="photo">
+                <img src="images/IMG_20221121_181645.jpg" alt="Photo 4" width="100%">
+            </div>
+            <div class="photo">
+                <img src="images/IMG_20221121_182410.jpg" alt="Photo 3" width="100%">
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+</body>
+
+</html>
